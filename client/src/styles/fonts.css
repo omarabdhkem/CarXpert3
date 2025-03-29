@@ -1,0 +1,48 @@
+/* خطوط عربية */
+@font-face {
+  font-family: 'Cairo';
+  src: url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* خطوط إنجليزية */
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* تطبيق الخطوط على العناصر المختلفة */
+html {
+  font-family: 'Cairo', 'Poppins', sans-serif;
+}
+
+/* تخصيص الخطوط للمحتوى العربي */
+[lang="ar"] {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* تخصيص الخطوط للمحتوى الإنجليزي */
+[lang="en"] {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* تخصيص الخطوط للعناوين */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cairo', 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/* تخصيص الخطوط للنصوص */
+p, span, div {
+  font-family: 'Cairo', 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+/* تخصيص الخطوط للأزرار */
+button, .button {
+  font-family: 'Cairo', 'Poppins', sans-serif;
+  font-weight: 500;
+}

@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  <text x="400" y="100" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">مرسيدس بنز GLA 250</text>
+  <text x="400" y="140" font-family="Arial" font-size="18" text-anchor="middle" fill="#666">عرض 360 درجة - زاوية 240 درجة</text>
+  
+  <!-- Car shape from front-left view -->
+  <g transform="translate(400, 300) scale(1.5)">
+    <!-- Car body -->
+    <path d="M-100,-20 L-80,-40 L80,-40 L120,-20 L120,20 L80,40 L-80,40 L-120,20 L-120,-10 Z" fill="#E0E0E0" stroke="#333" stroke-width="2"/>
+    
+    <!-- Windows -->
+    <path d="M-70,-30 L-20,-35 L60,-30 L70,-10 L60,15 L-20,15 L-60,5 Z" fill="#B6D0E5" stroke="#333" stroke-width="1"/>
+    
+    <!-- Wheels -->
+    <circle cx="-70" cy="40" r="20" fill="#333" stroke="#000" stroke-width="1"/>
+    <circle cx="-70" cy="40" r="10" fill="#666" stroke="#000" stroke-width="1"/>
+    
+    <circle cx="70" cy="40" r="20" fill="#333" stroke="#000" stroke-width="1"/>
+    <circle cx="70" cy="40" r="10" fill="#666" stroke="#000" stroke-width="1"/>
+    
+    <!-- Headlights -->
+    <ellipse cx="-115" cy="0" rx="8" ry="10" fill="#FFF" stroke="#333" stroke-width="1"/>
+    
+    <!-- Mercedes logo -->
+    <circle cx="0" cy="-15" r="10" fill="#F0F0F0" stroke="#333" stroke-width="1"/>
+    <path d="M0,-21 L0,-9 M-6,-15 L6,-15 M-5,-18 L5,-12 M-5,-12 L5,-18" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <text x="400" y="500" font-family="Arial" font-size="16" text-anchor="middle" fill="#999">صورة توضيحية لعرض 360 درجة</text>
+</svg>

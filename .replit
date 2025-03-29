@@ -1,0 +1,15 @@
+modules = ["nodejs-20", "postgresql-16", "dotnet-8.0", "bun-1.2", "c-clang14", "cpp-clang14", "clojure-1.12", "dart-3.5", "elixir-1_17", "go-1.23", "gcloud", "haskell-ghc9.6", "haskell-ghc9.4", "hermit-0.38.2", "java-graalvm22.3", "lua-5.2", "nix", "nodejs-23", "php-8.3", "php-8.2", "postgresql-17", "qbasic", "r-4.4", "replit-rtld-loader", "ruby-3.2", "rust-nightly", "rust-stable", "svelte-kit-node-20", "swift-5.8", "typescript-language-server", "web", "pyright", "pyright-extended", "ruff", "zig-0.11", "docker", "nodejs-with-prybar-18", "vue-node-20", "angular-node-20", "python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "تشغيل الموقع"
+
+[[workflows.workflow]]
+name = "تشغيل الموقع"
+author = 40271350
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npx ts-node server/index.ts"
